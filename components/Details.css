@@ -1,0 +1,32 @@
+.location-container {
+  background-color: #fff;
+}
+
+.location #top-image-container {
+  min-height: 220px;
+}
+
+.location .location-container .venue-logo {
+  margin: 24px 0;
+}
+
+.location .location-container .venue-image {
+  margin: 24px 0;
+}
+
+.location .location-container .info-group-details {
+  font-family: 'Muli';
+  font-weight: 100;
+  font-size: 16pt;
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+}
+
+@media only screen and (max-width : 417px) {
+  .location .location-container .date ,
+  .location .location-container .info-group-details {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

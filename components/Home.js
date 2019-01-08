@@ -1,0 +1,32 @@
+import './Home.css';
+
+export default class Location {
+  constructor(selector) {
+    this.selector = selector;
+  }
+
+  getContent() {
+    return {
+      main: (
+        `
+          <div class="home-container">
+            <div class="home-image-container">
+              <img width="80%" height="auto" class="home-image" src="../images/kb2-crop.jpg" />
+            </div>
+            <div class="header-with-decoration">
+              <div class="line-decoration"></div>
+              <div class="info-group-heading secondary-header">
+                March 22, 2019
+              </div>
+              <div class="line-decoration"></div>
+            </div>
+            <p class="location-details">
+              Omni Austin Hotel at Southpark, Austin, Texas
+            </p>
+          </div>
+        `
+      ),
+      image: `<span></span>`
+    }
+  }
+}

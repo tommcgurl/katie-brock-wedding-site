@@ -4,21 +4,64 @@
   <meta charset="utf-8">
   <title>Katie & Brock 2019</title>
   <meta property="og:title" content="Katie & Brock 2019" />
-<!---
-  <meta property="og:image" content="http://gingerandtom2017.com/images/photos/og.jpg" />
-  <meta property="og:description" content="Ginger Hall and Tom McGurl will be married June 30th 2017 in Red Bank New Jersey" />
+  <meta property="og:image" content="http://katieandbrock2019.com/images/kb3.jpg" />
+  <meta property="og:description" content="Katie McGurl and Brock Caron will be married March 22nd 2019 in Austin, Texas." />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ginger & Tom 2017" />
-  <meta name="twitter:description" content="Ginger Hall and Tom McGurl will be married June 30th 2017 in Red Bank New Jersey" />
-  <meta name="twitter:image" content="http://gingerandtom2017.com/images/photos/og.jpg" />
--->
+  <meta name="twitter:title" content="Katie & Brock 2019" />
+  <meta name="twitter:description" content="Katie McGurl and Brock Caron will be married March 22nd 2019 in Austin, Texas." />
+  <meta name="twitter:image" content="http://katieandbrock2019.com/images/kb3.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./index.css">
-  <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
 </head>
 <body>
   <!-- HOME PAGE -->
-  <h1 class="main-header">Katie & Brock</h1>
+  <div id="main-container" class="section header-container">
+    <div id="main-header-container" class="row container">
+      <div class="centered-col">
+        <h1 class="main-header">Katie & Brock</h1>
+      </div>
+    </div>
+    <div class="tab-container"/>
+      <div class="fixed-main-header">
+        Katie & Brock
+      </div>
+      <ul id="tab-list" class="tabs">
+        <li class="tab tab-item">
+          OUR WEDDING
+        </li>
+        <li class="tab tab-item">
+          DETAILS
+        </li>
+        <li class="tab tab-item">
+          RSVP
+        </li>
+        <a target="_blank" href="//www.zola.com/registry/katieandbrock2019" class="tab tab-item">
+          REGISTRY
+        </a>
+        <li class="tab tab-item">
+          PHOTOS
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Main content goes here  -->
+  <div id="content"></div>
+  <!---->
+  <script src="bundle.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-91018180-1', 'auto');
+    if (!location.hash) {
+      ga('set', 'page', `/home.html`);
+    } else {
+      ga('set', 'page', `/${window.location.hash.replace('#', '')}.html`)
+    }
+    ga('send', 'pageview');
+
+  </script>
 </body>
 </html>

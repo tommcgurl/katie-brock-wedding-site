@@ -1,0 +1,27 @@
+.rsvp #content {
+  background-color: #C9C8C1;
+}
+
+.rsvp #top-image-container {
+  min-height: 200px;
+  height: 30%;
+}
+
+.rsvp-container {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  -webkit-flex: 1;
+}
+
+#rsvp-frame {
+  width: 100%;
+  height: 1500px;
+}
+
+.rsvp-issues {
+  text-align: center;
+  font-family: 'Muli';
+  color: #333;
+}

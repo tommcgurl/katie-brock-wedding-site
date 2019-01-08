@@ -1,0 +1,33 @@
+.main-image {
+	width: 1500px;
+	height: auto;
+}
+
+.centered-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-header {
+	font-size: 68pt;
+	font-family: 'Sacramento', cursive;
+	font-weight: 100;
+}
+
+.second-header {
+	color: #e47777;
+	font-size: 42pt;
+	font-family: 'Sacramento', cursive;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+/* Mobile */
+@media only screen and (max-width : 768px) {
+	.parallax.secondary {
+		left: 40%;
+	}
+}

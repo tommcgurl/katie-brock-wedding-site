@@ -1,0 +1,31 @@
+.home-container {
+	padding: 4% 4%;
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
+.home-container .info-group-heading {
+	text-transform: none;
+}
+
+.home-container .location-details {
+	font-family: 'Muli';
+	font-weight: 100;
+	font-size: 16pt;
+	text-align: center;
+	margin: 10px 0;
+	color: #333;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  max-width: 750px;
+}
