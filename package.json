@@ -22,7 +22,7 @@
     "start": "webpack-dev-server --progress --colors",
     "build": "webpack --progress -p",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-site": "npm run build && git push"
+    "publish-site": "npm run build && git add . && git commit -m \"Latest build\" && git push"
   },
   "repository": {
     "type": "git",
