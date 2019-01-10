@@ -11,7 +11,7 @@ export default class Location {
         `
           <div class="home-container">
             <div class="home-image-container">
-              <img width="80%" height="auto" class="home-image" src="../images/kb2-crop.jpg" />
+              <img width="80%" height="auto" class="home-image" src="../images/landing-image.jpg" />
             </div>
             <div class="header-with-decoration">
               <div class="line-decoration"></div>
