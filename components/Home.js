@@ -20,9 +20,6 @@ export default class Location {
               </div>
               <div class="line-decoration"></div>
             </div>
-            <p class="location-details">
-              Omni Austin Hotel at Southpark, Austin, Texas
-            </p>
           </div>
         `
       ),
