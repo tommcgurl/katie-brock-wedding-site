@@ -7,6 +7,10 @@
 	-webkit-flex-direction: column;
 }
 
+.home-container .header-with-decoration {
+	margin-top: 18px;
+}
+
 .home-container .info-group-heading {
 	text-transform: none;
 }
