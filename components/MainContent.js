@@ -4,10 +4,12 @@ const BRIDAL_PARTY = 'BRIDALPARTY';
 const REGISTRY = 'REGISTRY';
 const RSVP = 'RSVP';
 const PHOTOS= 'PHOTOS';
+const THINGS_TO_DO = 'THINGSTODO';
 import Details from './Details.js';
 import Home from './Home.js';
 import Rsvp from './Rsvp.js';
 import Photos from './Photos.js';
+import ThingsToDo from './ThingsToDo.js';
 
 export default class Content {
   constructor(selector, topImageSelector, currentTab) {
@@ -123,6 +125,16 @@ export default class Content {
         mainContent = contentObj.main;
         imageContent = contentObj.image;
         mainContainerClass = "photos";
+        break;
+      }
+      case THINGS_TO_DO: {
+        debugger;
+        if (!this.thingsToDoComponent) {
+          this.thingsToDoComponent = new ThingsToDo();
+        }
+        contentObj = this.thingsToDoComponent.getContent();
+        mainContent = contentObj.main;
+        mainContainerClass = "to-do";
         break;
       }
       default: {
