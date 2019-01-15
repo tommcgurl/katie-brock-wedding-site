@@ -12,6 +12,15 @@ ul {
 	background-color: #fff;
 }
 
+.info-group-details {
+  font-family: 'Muli';
+  font-weight: 100;
+  font-size: 16pt;
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+}
+
 .main-image {
 	display: none;
 }
@@ -326,10 +335,32 @@ body.location, body.registry {
 	margin-bottom: 32px;
 	padding: 0 20%;
 	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.info-group-location-transportation,
+span {
+	color: #555;
+	font-family: 'Muli';
+	margin-bottom: 6px;
+	text-align: center;
+	padding: 0 10%;
+	min-width: 80%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.info-group-location-transportation ~ span {
+	margin-top: -4px;
+}
+
+
+.emphasis {
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
 }
 
 .location-container-second-row {
-	padding:6% 10%;
+	padding:6% 10% 2% 10%;
 	display: flex;
 	display: -webkit-flex;
 	flex-direction: column;

@@ -33,3 +33,30 @@
 .home-image {
   max-width: 750px;
 }
+
+.venue-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.venue-logo {
+  margin: 24px 0;
+}
+
+/* Mobile */
+@media only screen and (max-width : 417px) {
+	.home-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.home-container .home-image {
+		width: 100% !important;
+	}
+
+	.content-container.home {
+		top: 30%;
+	}
+
+}

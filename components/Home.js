@@ -16,9 +16,20 @@ export default class Location {
             <div class="header-with-decoration">
               <div class="line-decoration"></div>
               <div class="info-group-heading secondary-header">
-                March 22, 2019
+                Friday, March 22, 2019
               </div>
               <div class="line-decoration"></div>
+            </div>
+            <div class="venue-container">
+              <a href="http://www.prospecthousetx.com/" target="_blank">
+                <img class="venue-logo" src="../images/prospect-house-logo.png"/>
+              </a>
+              <p class="info-group-details">
+                12745 Silver Creek Road
+              </p>
+              <p class="info-group-details">
+                Dripping Springs, TX 78620
+              </p>
             </div>
           </div>
         `
