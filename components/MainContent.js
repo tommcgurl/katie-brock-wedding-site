@@ -3,11 +3,11 @@ const DETAILS = 'DETAILS';
 const BRIDAL_PARTY = 'BRIDALPARTY';
 const REGISTRY = 'REGISTRY';
 const RSVP = 'RSVP';
-const PHOTOS= 'PHOTOS';
+const AUSTIN = 'AUSTIN';
 import Details from './Details.js';
 import Home from './Home.js';
 import Rsvp from './Rsvp.js';
-import Photos from './Photos.js';
+import Austin from './Austin.js';
 
 export default class Content {
   constructor(selector, topImageSelector, currentTab) {
@@ -19,7 +19,7 @@ export default class Content {
     this.registryComponent = '';
     this.rsvpComponent = '';
     this.bridalPartyComponent = '';
-    this.photosComponent = '';
+    this.austinComponent = '';
   }
 
   changeHashHistory() {
@@ -115,14 +115,14 @@ export default class Content {
         mainContainerClass = "bridal-party";
         break;
       }
-      case PHOTOS: {
-        if (!this.photosComponent) {
-          this.photosComponent= new Photos();
+      case AUSTIN: {
+        if (!this.austinComponent) {
+          this.austinComponent= new Austin();
         }
-        contentObj = this.photosComponent.getContent();
+        contentObj = this.austinComponent.getContent();
         mainContent = contentObj.main;
         imageContent = contentObj.image;
-        mainContainerClass = "photos";
+        mainContainerClass = "austin";
         break;
       }
       default: {
