@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 32px 20%;
+  padding: 32px 10%;
 }
 
 .austin-body .header-with-decoration {
@@ -34,52 +34,71 @@
   margin: 10px 0;
   color: #555;
 }
+
+.austin-container p a {
+  display: contents;
+  color: black;
+}
+
+.austin-photo-container  {
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.austin-photo-container img {
+  flex: 0.25;
+  align-self: center;
+}
+
+.austin-photo-container p {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5%;
+  flex: 0.75;
+  line-height: 28px;
+  min-width: 50%;
+}
+
+.austin-photo-left-container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.austin-photo-right-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .austin-container a {
   font-weight: 600;
 }
 
-@media only screen and (max-width : 320px) {
+
+
+@media only screen and (max-width : 417px) {
   .austin-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 32px 100px;
+    padding: 32px 0px;
   }
   .austin-top-photo {
-    max-height: 150px;
     width: 100%;
+  }
+  .austin-photo-container p {
+    padding: 0 8px;
+  }
+  .austin-photo-container img {
+    flex: 0.25;
+    flex-grow: 1;
+    width: 100%;
+    align-self: center;
   }
 }
 
-@media only screen and (max-width : 417px) and (min-width: 321px) {
-  .austin-top-photo-container {
-    width: 100%;
-  }
+@media only screen and (max-width : 1024px) and (min-width : 418px) {
   .austin-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 32px 20px;
+    padding: 32px 2px;
   }
-  .austin-top-photo {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width : 1000px) and (min-width : 418px) {
-  .austin-top-photo-container {
-    width: 100%;
-  }
-  .austin-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 32px 20px;
-  }
-  .austin-top-photo {
-    width: 100%;
+  .austin-photo-container p {
+    padding: 0 12px;
   }
 }
