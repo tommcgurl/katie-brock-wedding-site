@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 32px 10%;
+  padding: 32px 24px;
 }
 
 .austin-body .header-with-decoration {
@@ -96,9 +96,15 @@
 
 @media only screen and (max-width : 1024px) and (min-width : 418px) {
   .austin-body {
-    padding: 32px 2px;
+    padding: 32px 0px;
   }
   .austin-photo-container p {
-    padding: 0 12px;
+    padding: 0 8px;
+  }
+  .austin-photo-container img {
+    flex: 0.25;
+    flex-grow: 1;
+    width: 100%;
+    align-self: center;
   }
 }

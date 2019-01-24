@@ -119,7 +119,7 @@ export default class Austin {
                 </p>
               </div>
               <div class="austin-photo-container austin-photo-right-container">
-                <img src="../images/austin/jesterking2.jpg" />
+                <img src="../images/austin/jesterking.jpg" />
                 <p>
                   Tour one of our many local breweries: <a target="_blank" href="https://jesterkingbrewery.com">Jester King</a>, <a target="_blank" href="http://www.stelmobrewing.com">St. Elmo Brewing Co.<a/>, <a target="_blank" href="https://www.zilkerbeer.com/">Zilker Brewing Co.</a>,
                   <a target="_blank" href="http://www.hopsandgrain.com">Hops & Grain </a>,
