@@ -67,7 +67,7 @@ export default class Location {
               <p class="info-group-location-transportation" >
                 Departure times from Prospect House back to the Omni:
               </p>
-              <span class="emphasis"> 9:00pm and 11:00pm </span>
+              <span class="emphasis"> 10:15pm and 11:30pm </span>
               <p class="info-group-location-transportation" >
                 Local guests are welcome to park in the Omni lot and take the shuttle as well, but please note that out-of-town guests will be given first priority.
               </p>
