@@ -150,10 +150,6 @@ export default class Austin {
                   Congress where you can catch live music or try your luck at chicken-shit
                   bingo.
                 </p>
-                <p>
-                  <a target="_blank" href="https://www.elephantroom.com">The Elephant Room </a> is a hole-in-the-wall
-                  jazz club with live music nightly.
-                </p>
               </div>
             </div>
           </div>
